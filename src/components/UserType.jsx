@@ -15,7 +15,7 @@ const UserType = () => {
         ]
     )
 
-    const detail = details.filter(ele=> ele.user_type === 'Teacher').map((item) => (
+    const detail = details.filter(ele=> ele.user_type === 'Designer').map((item) => (
         <React.Fragment key={item.id}>
             <li className="list-elements">
                 <span>Id: {item.id}</span>
